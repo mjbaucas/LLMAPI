@@ -221,3 +221,26 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# LLM model files
+*.gguf
+*.safetensors
+*.pt
+*.pth
+*.bin
+
+# Local model cache
+models/
+.cache/huggingface/
+
+# Environment variables and secrets
+.env.*
+!.env.example
+
+# Local vector databases (future RAG integration)
+chroma_db/
+vectorstore/
+
+# Logs
+logs/
+*.log
